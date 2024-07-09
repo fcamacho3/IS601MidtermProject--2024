@@ -7,7 +7,7 @@
 
 - __Facade Pattern__
 
-I used the [__Facade Pattern__](https://github.com/fcamacho3/IS601MidtermProject--Summer2024/blob/master/app/__init__.py#L14-L155) to simplify the interaction with the application's complex subsystems, providing a unified interface for starting the application, loading plugins, and handling commands.
+I used the [__Facade Pattern__](https://github.com/fcamacho3/IS601MidtermProject--2024/blob/master/app/__init__.py#L14-L155) to simplify the interaction with the application's complex subsystems, providing a unified interface for starting the application, loading plugins, and handling commands.
 > The `App` class serves as the facade, encapsulating the complexities of loading plugins and handling commands. Clients interact with the `App` facade without needing to understand the internal workings of these subsystems. By encapsulating the initialization process, loading of plugins, and registration of commands, the App facade shields clients from the implementation details of these subsystems. Clients only need to know how to interact with the App class, making the application more maintainable and easier to use.
 ```python
 class App:
