@@ -1,0 +1,7 @@
+[run]
+omit =
+    */site-packages/*
+    */dist-packages/*
+    */lib/python*
+    */python*/*
+    */tests/calculator_module_tests/conftest.py
